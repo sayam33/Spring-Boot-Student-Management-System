@@ -1,20 +1,24 @@
 ✅Summary for Project
+
 📌 Project Name := Student Management System :– 
+
+
 📝 Description:_ 
-Student Management System built using Spring Boot, JSP, and MySQL. Includes RESTful API support, web views with JSP, Hibernate validation, and full CRUD functionality. Ideal for learning Java web development using Spring MVC and JPA. It includes features like adding, updating, deleting, and viewing students with proper validations, exception handling, and MySQL integration.
+⏩Student Management System built using Spring Boot, JSP, and MySQL. Includes RESTful API support, web views with JSP, Hibernate validation, and full CRUD functionality. Ideal for learning Java web development using Spring MVC and JPA. It includes features like adding, updating, deleting, and viewing students with proper validations, exception handling, and MySQL integration.
+
 
 🔧 Tech Stack:
-Backend Language: Java 8.
-Framework: Spring Boot 2.4.13.
-Persistence: Spring Data JPA.
-Database: MySQL V:= mysql-connector-j (8.3.0).
-View Layer: JSP (via tomcat-embed-jasper) JSTL.
-API Support: Spring REST Controller (`@RestController`).
-Validation: Hibernate Validator (via spring-boot-starter-validation (@Valid)).
-Build Tool: Maven.
-IDE Compatible: Eclipse (.classpath, .project).
-Logging: Uses log files (app.log) / SLF4J / Logback.
-Hot Reloading: Spring Boot DevTools.
+✅Backend Language: Java 8.
+✅Framework: Spring Boot 2.4.13.
+✅Persistence: Spring Data JPA.
+✅Database: MySQL V:= mysql-connector-j (8.3.0).
+✅View Layer: .JSP (via tomcat-embed-jasper) JSTL.
+✅API Support: Spring REST Controller (`@RestController`).
+✅Validation: Hibernate Validator (via spring-boot-starter-validation (@Valid)).
+✅Build Tool: Maven.
+✅IDE Compatible: Eclipse (.classpath, .project).
+✅Logging: Uses log files (app.log) / SLF4J / Logback.
+✅Hot Reloading: Spring Boot DevTools.
 
 
 💡 Key Features:
@@ -23,6 +27,7 @@ Validations on input forms.
 JSP-based front-end views.
 Maven-based build and dependency management.
 Structured for rapid development using Spring Boot.
+
 
 🚀 Features :-
 ✅ Full CRUD operations for Student Entity.
@@ -46,6 +51,7 @@ Structured for rapid development using Spring Boot.
 | POST   | `/students`      | Add new student      |
 | PUT    | `/students`      | Update a student     |
 | DELETE | `/students`      | Delete a student     |
+
 
 📁 Folder Structure Highlights:
 src/main/java – Contains controllers, models, services.
