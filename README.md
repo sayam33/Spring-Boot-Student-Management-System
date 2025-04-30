@@ -1,3 +1,5 @@
+
+
 ✅Summary for Project
 
 📌 Project Name := Student Management System :– 
@@ -41,7 +43,10 @@ Structured for rapid development using Spring Boot.
 ✅ Hot reload with Spring Boot DevTools.
 
 
-✅Access via browser: http://localhost:8080
+✅Access via browser: http://localhost:8080 .
+✅Access the App
+   Web UI: http://localhost:8080/ .
+   REST API: http://localhost:8080/students  .
 
 
 🌐 API Examples;-
