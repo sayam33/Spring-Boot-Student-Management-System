@@ -61,5 +61,7 @@ src/main/webapp/WEB-INF/jsp – JSP views.
 pom.xml – Project dependencies and configuration.
 .settings/, .classpath, .project – Eclipse project metadata.
 
+
+
 📢‼️Some Informations :-
 ⏩If you clone or download this project, you must update the application.properties file with your own MySQL database credentials (username, password, and database name). Without this change, the project will not run on your local system. Additionally, make sure your local MySQL server is running and accessible.
