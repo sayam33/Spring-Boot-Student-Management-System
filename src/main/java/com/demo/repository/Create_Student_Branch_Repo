@@ -1,0 +1,11 @@
+This code create a student branch .
+
+package com.demo.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.demo.entity.Branch;
+
+public interface BranchRepo extends CrudRepository<Branch, Long> {
+
+}

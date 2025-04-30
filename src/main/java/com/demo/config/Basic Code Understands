@@ -1,0 +1,59 @@
+This file starting this demo project just put here on start basic of this code.
+  
+  StudentController.java:-
+  //1.
+	public String createStudent(@RequestBody Student student){
+	service.createStudent(student);
+	return "Sayam The Real Hero";
+	}
+	}
+	
+	//2.
+	public Student createStudent(@RequestBody Student student) {
+	Student savedEntity = service.createStudent(student);
+	return savedEntity;
+	}
+	}
+	
+	//Handler methods 
+	//3.
+	public ResponseEntity<Student> createStudent(@RequestBody Student student) {
+    Student savedEntity = service.createStudent(student);
+	return new ResponseEntity<>(savedEntity, HttpStatus.CREATED);
+	
+		              //Another way
+		              
+	public ResponseEntity<Student> createStudent(@RequestBody Student student) {
+	URI savedEntity = service.createStudent(student);
+	return ResponseEntity.created(savedEntity).body(student);
+	}
+	}
+	
+	StudentService.java:-
+	//1.
+	@Autowired
+	private StudentRepository repo;
+	public void createStudent (Student student){
+	repo.save(student);
+	}
+	}
+	
+	//2.
+	@Autowired
+	private StudentRepository repo;
+	public Student createStudent(Student student) {
+	Student savedEntity = repo.save(student);//---> ORM saves that in the database.
+	return savedEntity;
+	}
+    }
+	
+	//3.
+	@Autowired
+	private StudentRepository repo;
+	public Student createStudent(Student student) {
+	Student savedEntity = repo.save(student);//---> ORM saves that in the database.
+	return savedEntity;
+	}
+    }
+    
+This 2classes codes are just basic Advance lable codes I have create in main packages and classes.

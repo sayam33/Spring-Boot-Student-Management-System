@@ -1,0 +1,50 @@
+This code create a student branch .  
+
+
+package com.demo.payload;
+
+public class StudentBranchDto {
+	
+	private long sid;
+	private long bid;
+	private String name;
+	private String course;
+	private String email;
+	private String branch;
+	public long getSid() {
+		return sid;
+	}
+	public void setSid(long sid) {
+		this.sid = sid;
+	}
+	public long getBid() {
+		return bid;
+	}
+	public void setBid(long bid) {
+		this.bid = bid;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getBranch() {
+		return branch;
+	}
+	public void setBranch(String branch) {
+		this.branch = branch;
+	}
+}

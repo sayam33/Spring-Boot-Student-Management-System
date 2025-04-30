@@ -1,0 +1,257 @@
+2025-04-25 00:00:39.214  INFO 25556 --- [http-nio-8080-exec-8] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:00:39.235  INFO 25556 --- [http-nio-8080-exec-8] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:00:55.514  WARN 25556 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:00:55.515 ERROR 25556 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400111' for key 'student.UKexbwqcphwk6e63djot72evi1g'
+2025-04-25 00:00:55.583  WARN 25556 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UKexbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:00:59.367  WARN 25556 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:00:59.367 ERROR 25556 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400111' for key 'student.UKexbwqcphwk6e63djot72evi1g'
+2025-04-25 00:00:59.373  WARN 25556 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UKexbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:01:03.350  WARN 25556 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:01:03.350 ERROR 25556 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400111' for key 'student.UKexbwqcphwk6e63djot72evi1g'
+2025-04-25 00:01:03.364  WARN 25556 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UKexbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:07:32.542  INFO 25556 --- [http-nio-8080-exec-6] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:07:32.549  INFO 25556 --- [http-nio-8080-exec-6] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:08:19.284  INFO 25556 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-25 00:08:19.384  INFO 25556 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:08:19.401  INFO 25556 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-25 00:08:19.439  INFO 25556 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-25 00:08:24.862  INFO 2532 --- [restartedMain] com.demo.DemoApplication                 : Starting DemoApplication using Java 21.0.6 on LAPTOP-H0H5HQSE with PID 2532 (E:\API_Development_code_PSA\demo\target\classes started by GUGUL in E:\API_Development_code_PSA\demo)
+2025-04-25 00:08:24.863  INFO 2532 --- [restartedMain] com.demo.DemoApplication                 : No active profile set, falling back to default profiles: default
+2025-04-25 00:08:25.182  INFO 2532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-25 00:08:25.182  INFO 2532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-25 00:08:27.028  INFO 2532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-25 00:08:27.100  INFO 2532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2025-04-25 00:08:28.414  INFO 2532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-04-25 00:08:28.436  INFO 2532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-25 00:08:28.437  INFO 2532 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-25 00:08:29.406  INFO 2532 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-25 00:08:29.414  INFO 2532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-25 00:08:29.415  INFO 2532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4220 ms
+2025-04-25 00:08:29.726  INFO 2532 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-25 00:08:29.847  INFO 2532 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-04-25 00:08:30.196  INFO 2532 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-25 00:08:30.480  INFO 2532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-25 00:08:31.605  INFO 2532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-25 00:08:31.651  INFO 2532 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-25 00:08:32.942  INFO 2532 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-25 00:08:32.953  INFO 2532 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:08:33.021  INFO 2532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-25 00:08:33.882  WARN 2532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-25 00:08:34.678  INFO 2532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-25 00:08:34.693  INFO 2532 --- [restartedMain] com.demo.DemoApplication                 : Started DemoApplication in 10.912 seconds (JVM running for 12.555)
+2025-04-25 00:09:36.073  INFO 2532 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-25 00:09:36.074  INFO 2532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-25 00:09:36.081  INFO 2532 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2025-04-25 00:09:36.163  INFO 2532 --- [http-nio-8080-exec-1] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:09:36.164  INFO 2532 --- [http-nio-8080-exec-1] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:10:05.491  WARN 2532 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:10:05.491 ERROR 2532 --- [http-nio-8080-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400110' for key 'student.UKexbwqcphwk6e63djot72evi1g'
+2025-04-25 00:10:05.625  WARN 2532 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UKexbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:11:02.603  INFO 2532 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-25 00:11:02.646  INFO 2532 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:11:02.653  INFO 2532 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-25 00:11:02.721  INFO 2532 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-25 00:11:07.881  INFO 15288 --- [restartedMain] com.demo.DemoApplication                 : Starting DemoApplication using Java 21.0.6 on LAPTOP-H0H5HQSE with PID 15288 (E:\API_Development_code_PSA\demo\target\classes started by GUGUL in E:\API_Development_code_PSA\demo)
+2025-04-25 00:11:07.883  INFO 15288 --- [restartedMain] com.demo.DemoApplication                 : No active profile set, falling back to default profiles: default
+2025-04-25 00:11:07.976  INFO 15288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-25 00:11:07.976  INFO 15288 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-25 00:11:09.433  INFO 15288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-25 00:11:09.505  INFO 15288 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2025-04-25 00:11:10.606  INFO 15288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-04-25 00:11:10.618  INFO 15288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-25 00:11:10.620  INFO 15288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-25 00:11:11.098  INFO 15288 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-25 00:11:11.104  INFO 15288 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-25 00:11:11.105  INFO 15288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3127 ms
+2025-04-25 00:11:11.368  INFO 15288 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-25 00:11:11.446  INFO 15288 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-04-25 00:11:11.650  INFO 15288 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-25 00:11:11.912  INFO 15288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-25 00:11:12.903  INFO 15288 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-25 00:11:12.951  INFO 15288 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-25 00:11:14.363  INFO 15288 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-25 00:11:14.379  INFO 15288 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:11:14.443  INFO 15288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-25 00:11:15.221  WARN 15288 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-25 00:11:16.111  INFO 15288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-25 00:11:16.124  INFO 15288 --- [restartedMain] com.demo.DemoApplication                 : Started DemoApplication in 9.14 seconds (JVM running for 11.155)
+2025-04-25 00:11:28.962  INFO 15288 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-25 00:11:28.964  INFO 15288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-25 00:11:28.973  INFO 15288 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-04-25 00:11:50.884  INFO 15288 --- [http-nio-8080-exec-6] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:11:50.884  INFO 15288 --- [http-nio-8080-exec-6] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:14:59.457  WARN 15288 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-04-25 00:14:59.459 ERROR 15288 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'demo_api_d_db.student' doesn't exist
+2025-04-25 00:14:59.708  WARN 15288 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement]
+2025-04-25 00:15:30.529  WARN 15288 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1146, SQLState: 42S02
+2025-04-25 00:15:30.531 ERROR 15288 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Table 'demo_api_d_db.student' doesn't exist
+2025-04-25 00:15:30.535  WARN 15288 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement]
+2025-04-25 00:16:56.225  INFO 15288 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-25 00:16:56.270  INFO 15288 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:16:56.278  INFO 15288 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-25 00:16:56.310  INFO 15288 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-25 00:17:00.883  INFO 21640 --- [restartedMain] com.demo.DemoApplication                 : Starting DemoApplication using Java 21.0.6 on LAPTOP-H0H5HQSE with PID 21640 (E:\API_Development_code_PSA\demo\target\classes started by GUGUL in E:\API_Development_code_PSA\demo)
+2025-04-25 00:17:00.885  INFO 21640 --- [restartedMain] com.demo.DemoApplication                 : No active profile set, falling back to default profiles: default
+2025-04-25 00:17:01.052  INFO 21640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-25 00:17:01.053  INFO 21640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-25 00:17:02.442  INFO 21640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-25 00:17:02.582  INFO 21640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interfaces.
+2025-04-25 00:17:03.636  INFO 21640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-04-25 00:17:03.655  INFO 21640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-25 00:17:03.656  INFO 21640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-25 00:17:04.803  INFO 21640 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-25 00:17:04.812  INFO 21640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-25 00:17:04.812  INFO 21640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3758 ms
+2025-04-25 00:17:05.181  INFO 21640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-25 00:17:05.274  INFO 21640 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-04-25 00:17:05.519  INFO 21640 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-25 00:17:05.712  INFO 21640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-25 00:17:06.700  INFO 21640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-25 00:17:06.761  INFO 21640 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-25 00:17:08.469  INFO 21640 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-25 00:17:08.484  INFO 21640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:17:08.582  INFO 21640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-25 00:17:09.704  WARN 21640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-25 00:17:10.335  INFO 21640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-25 00:17:10.349  INFO 21640 --- [restartedMain] com.demo.DemoApplication                 : Started DemoApplication in 10.151 seconds (JVM running for 11.985)
+2025-04-25 00:17:22.479  INFO 21640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-25 00:17:22.480  INFO 21640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-25 00:17:22.483  INFO 21640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-25 00:19:51.226  WARN 21640 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:19:51.226 ERROR 21640 --- [http-nio-8080-exec-7] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400113' for key 'student.UK_exbwqcphwk6e63djot72evi1g'
+2025-04-25 00:19:51.663  WARN 21640 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UK_exbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:19:57.590  WARN 21640 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:19:57.590 ERROR 21640 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400113' for key 'student.UK_exbwqcphwk6e63djot72evi1g'
+2025-04-25 00:19:57.594  WARN 21640 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UK_exbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:20:00.645  WARN 21640 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:20:00.653 ERROR 21640 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400113' for key 'student.UK_exbwqcphwk6e63djot72evi1g'
+2025-04-25 00:20:00.669  WARN 21640 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UK_exbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:20:26.806  WARN 21640 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:20:26.806 ERROR 21640 --- [http-nio-8080-exec-10] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400113' for key 'student.UK_exbwqcphwk6e63djot72evi1g'
+2025-04-25 00:20:26.822  WARN 21640 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UK_exbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:22:17.777  INFO 21640 --- [http-nio-8080-exec-8] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:22:17.778  INFO 21640 --- [http-nio-8080-exec-8] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:22:37.541  WARN 21640 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:22:37.542 ERROR 21640 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400114' for key 'student.UK_exbwqcphwk6e63djot72evi1g'
+2025-04-25 00:22:37.551  WARN 21640 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UK_exbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:24:45.659  INFO 21640 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:24:45.677  INFO 21640 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-25 00:24:46.575  INFO 21640 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-25 00:24:47.791  INFO 21640 --- [restartedMain] com.demo.DemoApplication                 : Starting DemoApplication using Java 21.0.6 on LAPTOP-H0H5HQSE with PID 21640 (E:\API_Development_code_PSA\demo\target\classes started by GUGUL in E:\API_Development_code_PSA\demo)
+2025-04-25 00:24:47.791  INFO 21640 --- [restartedMain] com.demo.DemoApplication                 : No active profile set, falling back to default profiles: default
+2025-04-25 00:24:49.334  INFO 21640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-25 00:24:49.378  INFO 21640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2025-04-25 00:24:50.320  INFO 21640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-04-25 00:24:50.322  INFO 21640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-25 00:24:50.322  INFO 21640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-25 00:24:51.358  INFO 21640 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-25 00:24:51.639  INFO 21640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-25 00:24:51.640  INFO 21640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3598 ms
+2025-04-25 00:24:57.267  INFO 21640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-25 00:24:57.276  INFO 21640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-04-25 00:24:57.745  INFO 21640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-04-25 00:24:57.746  INFO 21640 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-25 00:24:58.217  INFO 21640 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-25 00:24:58.218  INFO 21640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:24:58.242  INFO 21640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-25 00:24:59.712  WARN 21640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-25 00:25:00.110  INFO 21640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-25 00:25:00.128  INFO 21640 --- [restartedMain] com.demo.DemoApplication                 : Started DemoApplication in 13.283 seconds (JVM running for 481.764)
+2025-04-25 00:25:00.131  INFO 21640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-04-25 00:25:12.000  INFO 21640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-25 00:25:12.017  INFO 21640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-25 00:25:12.018  INFO 21640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-25 00:25:12.041  WARN 21640 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:25:12.041 ERROR 21640 --- [http-nio-8080-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400114' for key 'student.UK_exbwqcphwk6e63djot72evi1g'
+2025-04-25 00:25:12.056  WARN 21640 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UK_exbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:26:25.973  INFO 21640 --- [http-nio-8080-exec-4] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:26:25.988  INFO 21640 --- [http-nio-8080-exec-4] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:27:54.464  WARN 21640 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 4 exists!]
+2025-04-25 00:28:14.127  WARN 21640 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 9 exists!]
+2025-04-25 00:28:26.732  WARN 21640 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 13 exists!]
+2025-04-25 00:28:27.493  WARN 21640 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 13 exists!]
+2025-04-25 00:28:27.694  WARN 21640 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 13 exists!]
+2025-04-25 00:28:27.897  WARN 21640 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 13 exists!]
+2025-04-25 00:28:33.010  WARN 21640 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 13 exists!]
+2025-04-25 00:28:37.207  WARN 21640 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 13 exists!]
+2025-04-25 00:28:57.252  INFO 21640 --- [http-nio-8080-exec-6] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:28:57.252  INFO 21640 --- [http-nio-8080-exec-6] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:29:05.961  WARN 21640 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-04-25 00:29:05.963 ERROR 21640 --- [http-nio-8080-exec-8] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '6372400114' for key 'student.UK_exbwqcphwk6e63djot72evi1g'
+2025-04-25 00:29:05.968  WARN 21640 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [student.UK_exbwqcphwk6e63djot72evi1g]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2025-04-25 00:32:29.005  INFO 21640 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-25 00:32:29.283  INFO 21640 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:32:29.301  INFO 21640 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-04-25 00:32:29.363  INFO 21640 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-04-25 00:32:35.446  INFO 3216 --- [restartedMain] com.demo.DemoApplication                 : Starting DemoApplication using Java 21.0.6 on LAPTOP-H0H5HQSE with PID 3216 (E:\API_Development_code_PSA\demo\target\classes started by GUGUL in E:\API_Development_code_PSA\demo)
+2025-04-25 00:32:35.447  INFO 3216 --- [restartedMain] com.demo.DemoApplication                 : No active profile set, falling back to default profiles: default
+2025-04-25 00:32:35.575  INFO 3216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-25 00:32:35.576  INFO 3216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-25 00:32:36.539  INFO 3216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-25 00:32:36.605  INFO 3216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2025-04-25 00:32:37.328  INFO 3216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-04-25 00:32:37.340  INFO 3216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-25 00:32:37.341  INFO 3216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-25 00:32:37.616  INFO 3216 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-25 00:32:37.623  INFO 3216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-25 00:32:37.623  INFO 3216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2041 ms
+2025-04-25 00:32:37.837  INFO 3216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-25 00:32:37.921  INFO 3216 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-04-25 00:32:38.121  INFO 3216 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-25 00:32:38.259  INFO 3216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-25 00:32:39.271  INFO 3216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-25 00:32:39.311  INFO 3216 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-25 00:32:40.366  INFO 3216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-25 00:32:40.386  INFO 3216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:32:40.564  INFO 3216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-25 00:32:41.304  WARN 3216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-25 00:32:41.744  INFO 3216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-25 00:32:41.754  INFO 3216 --- [restartedMain] com.demo.DemoApplication                 : Started DemoApplication in 6.739 seconds (JVM running for 7.789)
+2025-04-25 00:32:52.283  INFO 3216 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-25 00:32:52.283  INFO 3216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-25 00:32:52.291  INFO 3216 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2025-04-25 00:33:00.101  INFO 3216 --- [http-nio-8080-exec-2] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:33:00.105  INFO 3216 --- [http-nio-8080-exec-2] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:40:50.618  INFO 3216 --- [http-nio-8080-exec-7] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:40:50.620  INFO 3216 --- [http-nio-8080-exec-7] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:41:01.804  WARN 3216 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.EmptyResultDataAccessException: No class com.demo.entity.Student entity with id 6 exists!]
+2025-04-25 00:41:42.273  INFO 3216 --- [http-nio-8080-exec-1] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:41:42.273  INFO 3216 --- [http-nio-8080-exec-1] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:42:13.695  INFO 3216 --- [http-nio-8080-exec-3] c.demo.controller.StudentControllerView  : Inside getStudentById() method
+2025-04-25 00:42:13.695  INFO 3216 --- [http-nio-8080-exec-3] com.demo.service.StudentService          : inside service layer getStudentById()
+2025-04-25 00:45:03.097  INFO 3216 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-25 00:45:03.141  INFO 3216 --- [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 00:45:03.171  INFO 3216 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-25 00:45:03.216  INFO 3216 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-04-25 12:25:22.337  INFO 23896 --- [restartedMain] com.demo.DemoApplication                 : Starting DemoApplication using Java 21.0.6 on LAPTOP-H0H5HQSE with PID 23896 (E:\API_Development_code_PSA\demo\target\classes started by GUGUL in E:\API_Development_code_PSA\demo)
+2025-04-25 12:25:22.340  INFO 23896 --- [restartedMain] com.demo.DemoApplication                 : No active profile set, falling back to default profiles: default
+2025-04-25 12:25:22.409  INFO 23896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-25 12:25:22.409  INFO 23896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-25 12:25:23.474  INFO 23896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-25 12:25:23.579  INFO 23896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2025-04-25 12:25:24.466  INFO 23896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-04-25 12:25:24.481  INFO 23896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-25 12:25:24.482  INFO 23896 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2025-04-25 12:25:24.844  INFO 23896 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-25 12:25:24.855  INFO 23896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-25 12:25:24.855  INFO 23896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2443 ms
+2025-04-25 12:25:25.287  INFO 23896 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-25 12:25:25.407  INFO 23896 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2025-04-25 12:25:25.604  INFO 23896 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-04-25 12:25:25.741  INFO 23896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-25 12:25:26.291  INFO 23896 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-25 12:25:26.335  INFO 23896 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-04-25 12:25:27.781  INFO 23896 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-04-25 12:25:27.796  INFO 23896 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 12:25:27.862  INFO 23896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-25 12:25:28.397  WARN 23896 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-25 12:25:29.142  INFO 23896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-25 12:25:29.156  INFO 23896 --- [restartedMain] com.demo.DemoApplication                 : Started DemoApplication in 7.869 seconds (JVM running for 25.685)
+2025-04-25 12:25:58.118  INFO 23896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-25 12:25:58.126  INFO 23896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-25 12:25:58.137  INFO 23896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2025-04-25 12:26:02.231  WARN 23896 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [428] milliseconds.
+2025-04-25 12:28:24.415  INFO 23896 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-04-25 12:28:24.461  INFO 23896 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-25 12:28:24.470  INFO 23896 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-04-25 12:28:24.499  INFO 23896 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
