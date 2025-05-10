@@ -2,7 +2,6 @@
 
 📌 Project Name := Student Management System :– 
 
-
 📝 Description:_ 
 ⏩Student Management System built using Spring Boot, JSP, and MySQL. Includes RESTful API support, web views with JSP, Hibernate validation, and full CRUD functionality. Ideal for learning Java web development using Spring MVC and JPA. It includes features like adding, updating, deleting, and viewing students with proper validations, exception handling, and MySQL integration.
 
